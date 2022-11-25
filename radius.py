@@ -8,7 +8,7 @@ def calculate_radius( area):
     x_4 = x*x*x*x
     x_5 = x*x*x*x*x
 
-    return 1 + 1/2*x - 1/8*x_sq + 1/16*x_cubed - 5/128*x_4 + 7/256*x_5
+    return 1 + 1/2*x - 1/8*x_sq + 1/16*x_cubed - 5/128*x_4 + 7/256*x_5-100
 
 #
 #
@@ -29,4 +29,4 @@ def calculate_radius( area):
 #
 
 if __name__ == "__main__":
-    print(f'A circle of area of 2 has a radiys of {calculate_radius(2)}')
+    print(f'A circle of area of 2m has a radiys of {calculate_radius(2)}m')
