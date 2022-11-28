@@ -12,21 +12,8 @@ def calculate_radius( area):
 
 #
 #
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+
 
 if __name__ == "__main__":
-    print(f'A circle of area of 2 has a radiys of {calculate_radius(2)}')
+    my_area = 2
+    print(f'A circle of area {my_area} has a radiys of {calculate_radius(my_area)}')
